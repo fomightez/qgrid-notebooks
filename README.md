@@ -15,10 +15,10 @@ Qgrid is an interactive grid for sorting, filtering, and editing DataFrames in J
 
 ### Issues
 
--  I found a better solution than I used in my appmode repo for adding the dependencies that conda cannot handle and needs `pip install`. Learned from http://repo2docker.readthedocs.io/en/latest/samples.html#conda-mixed-requirements I can add sub-group for pip to the `environment.yml` and that fixes my issue with vpnotebook, vpython, and matplotlib_venn without need of another file.
+-  I found a better solution than I used in my appmode repo for adding the dependencies that conda cannot handle and needs `pip install`. Learned from [here](http://repo2docker.readthedocs.io/en/latest/samples.html#conda-mixed-requirements) that I can add sub-group for pip to the `environment.yml` and that fixes my issue with vpnotebook, vpython, and matplotlib_venn without need of another file.
 
 ----
 
 ### Related
 
-There is a repository that I made that allows use of Qgrid and appmode along with the dependencies I favor. It is [here](https://github.com/fomightez/qgridNappmode-notebooks). Unfortunately because of the way Github works, I cannot have two forks of the same repository and so it is a mirror of this one before I removed appmode. I removed appmode from this repository because it breaks the use of the technique described by harshil's answer at http://stackoverflow.com/questions/27934885/how-to-hide-code-from-cells-in-ipython-notebook-visualized-with-nbviewer for hiding all code cells with a toggle button.
+There is a repository that I made that allows use of Qgrid and appmode along with the dependencies I favor. It is [here](https://github.com/fomightez/qgridNappmode-notebooks). Unfortunately because of the way Github works, I cannot have two forks of the same repository and so it is a mirror of this one before I removed appmode. I removed appmode from this repository because it breaks the use of the technique described by harshil's answer [here](http://stackoverflow.com/questions/27934885/how-to-hide-code-from-cells-in-ipython-notebook-visualized-with-nbviewer) for hiding all code cells with a toggle button.
