@@ -15,7 +15,7 @@ Qgrid is an interactive grid for sorting, filtering, and editing DataFrames in J
 
 ### Issues
 
--  I found a better solution than I used in my appmode repo for adding the dependencies that conda cannot handle and needs `pip install`. Learned from [here](http://repo2docker.readthedocs.io/en/latest/samples.html#conda-mixed-requirements) that I can add sub-group for pip to the `environment.yml` and that fixes my issue with vpnotebook, vpython, and matplotlib_venn without need of another file.
+-  I couldn't get commands to handle dependencies conda wouldn't handle, i.e., need `pip`, placed in `postBuild` to work even though I made executable and had copied the exact one from the appmode repo. I found a better solution than I used in my appmode repo for adding the dependencies that conda cannot handle and needs `pip install`. Learned from [here](http://repo2docker.readthedocs.io/en/latest/samples.html#conda-mixed-requirements) that I can add sub-group for pip to the `environment.yml` and that fixes my issue with vpnotebook, vpython, and matplotlib_venn without need of another file.
 
 ----
 
