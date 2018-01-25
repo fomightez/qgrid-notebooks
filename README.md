@@ -10,7 +10,7 @@ Qgrid is an interactive grid for sorting, filtering, and editing DataFrames in J
 ----
 
 ### Post-Fork Differences
-- After forking the the base `qgrid-notebooks` example, I added my other favorite dependencies using the `environment.yml`. (I just noticed even though I didn't list it there, it seems I can also use `import ipywidgets as widgets` to use widgets. They were probably a depedency of qgrid since that is a widget.)
+- After forking the the base `qgrid-notebooks` example, I added my other favorite dependencies using the `environment.yml`. (I just noticed even though I didn't list it there, it seems I can also use `import ipywidgets as widgets` to use widgets in notebooks launched from here. They were probably a depedency of qgrid since that is a widget.)
 
 
 ### Issues
