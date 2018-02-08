@@ -4,6 +4,7 @@ channels:
   - conda-forge
   - tim_shawver
   - defaults
+  - bioconda
 dependencies:
   - qgrid=1.0.0
   - pandas-datareader>=0.5.0
