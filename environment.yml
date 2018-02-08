@@ -1,7 +1,6 @@
 name: qgrid-environment
 channels:
   - tim_shawver
-  - bioconda
   - conda-forge
   - tim_shawver
   - defaults
