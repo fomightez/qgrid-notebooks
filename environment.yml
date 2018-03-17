@@ -10,6 +10,7 @@ dependencies:
   - matplotlib>=2.1.1
   - seaborn
   - statsmodels
+  - biopython
   - pip:
     - vpnotebook
     - vpython
