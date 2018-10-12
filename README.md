@@ -1,6 +1,6 @@
 # Using Qgrid with Binder. Also have Seaborn, VPython, BLAST, and other useful dependencies
 
-[![Binder](https://mybinder.org/badge.svg)](https://beta.mybinder.org/v2/gh/fomightez/qgrid-notebooks/master?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fomightez/qgrid-notebooks/master?filepath=index.ipynb)
 
 This repository allows use of Qgrid with Binder. 
 
